@@ -50,6 +50,12 @@
     <Compile Include="ComboBox.Designer.cs">
       <DependentUpon>ComboBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuStrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuStrip.Designer.cs">
+      <DependentUpon>MenuStrip.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListBox.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ComboBox.resx">
       <DependentUpon>ComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuStrip.resx">
+      <DependentUpon>MenuStrip.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListBox.resx">
       <DependentUpon>ListBox.cs</DependentUpon>
