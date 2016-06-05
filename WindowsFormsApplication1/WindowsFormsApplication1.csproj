@@ -50,11 +50,11 @@
     <Compile Include="ComboBox.Designer.cs">
       <DependentUpon>ComboBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="listBox.cs">
+    <Compile Include="ListBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="listBox.Designer.cs">
-      <DependentUpon>listBox.cs</DependentUpon>
+    <Compile Include="ListBox.Designer.cs">
+      <DependentUpon>ListBox.cs</DependentUpon>
     </Compile>
     <Compile Include="land.cs">
       <SubType>Form</SubType>
@@ -67,8 +67,8 @@
     <EmbeddedResource Include="ComboBox.resx">
       <DependentUpon>ComboBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="listBox.resx">
-      <DependentUpon>listBox.cs</DependentUpon>
+    <EmbeddedResource Include="ListBox.resx">
+      <DependentUpon>ListBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="land.resx">
       <DependentUpon>land.cs</DependentUpon>

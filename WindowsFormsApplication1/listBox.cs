@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
-    public partial class listBox : Form
+    public partial class ListBox : Form
     {
-        public listBox()
+        public ListBox()
         {
             InitializeComponent();
         }

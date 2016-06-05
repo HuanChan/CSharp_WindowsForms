@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication1
 {
-    partial class listBox
+    partial class ListBox
     {
         /// <summary>
         /// Required designer variable.
