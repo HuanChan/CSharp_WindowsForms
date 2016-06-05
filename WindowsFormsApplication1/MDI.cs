@@ -27,6 +27,11 @@ namespace WindowsFormsApplication1
             Mdichild.Show();
             //单击父窗体“菜单”\“子窗体1”时，会显示Form1窗体。
             //Form1只能再父窗体下活动，不能超出父窗体的范围。
+            this.LayoutMdi(MdiLayout.TileVertical);
+            //LayoutMdi：在MDI内排列多文档界面的主窗体，为方法
+            //MdiLayout：子窗体。和父窗体MdiParent对应。
+            //cascade：层叠。TileHorizontal：水平平铺。TileVertical：垂直平铺。
+            //效果：打开一个窗口，垂直一个窗口。
         }
 
         private void MDI_Load(object sender, EventArgs e)
@@ -39,6 +44,7 @@ namespace WindowsFormsApplication1
             Form2 Mdichild = new Form2();
             Mdichild.MdiParent = this;
             Mdichild.Show();
+            this.LayoutMdi(MdiLayout.TileVertical);
         }
 
         private void menuItem5_Click(object sender, EventArgs e)
@@ -46,6 +52,7 @@ namespace WindowsFormsApplication1
             Form3 Mdichild = new Form3();
             Mdichild.MdiParent = this;
             Mdichild.Show();
+            this.LayoutMdi(MdiLayout.TileVertical);
         }
     }
 }
